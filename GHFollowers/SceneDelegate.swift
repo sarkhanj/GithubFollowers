@@ -20,14 +20,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         window?.rootViewController = createTabbar()
         window?.makeKeyAndVisible()
+        
+        configureNavigationBar()
     }
     
     func createSearchNavigationController() -> UINavigationController {
         let searchVC = SearchVC()
         searchVC.title = "Search"
         
-        UINavigationBar.appearance().prefersLargeTitles = true
-        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.systemGray6]
+//        UINavigationBar.appearance().prefersLargeTitles = true
+//        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.systemGray6]
 
 //        UINavigationBar.appearance().backgroundColor = .systemGray6
         searchVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
@@ -46,11 +48,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     func createTabbar() -> UITabBarController {
         let tabbar = UITabBarController()
-        UITabBar.appearance().barTintColor = .systemGreen
+        UITabBar.appearance().barTintColor = .systemGreen 
         UITabBar.appearance().backgroundColor = .systemGray6
         tabbar.viewControllers = [createSearchNavigationController(), createFavoritesNavigationController()]
         
         return tabbar
+    }
+    
+    func configureNavigationBar(){
+        UINavigationBar.appearance().tintColor = .systemGreen
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
