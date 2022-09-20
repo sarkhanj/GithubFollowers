@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct Follower: Codable {
+struct Follower: Codable, Hashable {
     var login: String
     var avatarUrl: String // there is a way to convert from snake case to camel case
 }
