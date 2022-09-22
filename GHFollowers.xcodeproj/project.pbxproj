@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A05B87AF28DCD30F006EABE5 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05B87AE28DCD30F006EABE5 /* UserInfoVC.swift */; };
 		A075E78D28D4D4A9009BAA3D /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A075E78C28D4D4A9009BAA3D /* FollowerListVC.swift */; };
 		A075E78F28D4DE60009BAA3D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A075E78E28D4DE60009BAA3D /* StringExtension.swift */; };
 		A078A10928D8E05E00BA7AAB /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A078A10828D8E05E00BA7AAB /* GFTitleLabel.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A05B87AE28DCD30F006EABE5 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		A075E78C28D4D4A9009BAA3D /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		A075E78E28D4DE60009BAA3D /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		A078A10828D8E05E00BA7AAB /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				A09A7A4028D40ED500F10F80 /* SearchVC.swift */,
 				A075E78C28D4D4A9009BAA3D /* FollowerListVC.swift */,
 				A09A7A4228D40F0500F10F80 /* FavoriteListVC.swift */,
+				A05B87AE28DCD30F006EABE5 /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				A078A12128D9BA2700BA7AAB /* FollowerCell.swift in Sources */,
 				A078A12328D9BA9A00BA7AAB /* GFAvatarImageView.swift in Sources */,
 				A078A10D28D8E2E100BA7AAB /* GFAlertVC.swift in Sources */,
+				A05B87AF28DCD30F006EABE5 /* UserInfoVC.swift in Sources */,
 				A078A11628D9003A00BA7AAB /* Follower.swift in Sources */,
 				A09A7A4128D40ED500F10F80 /* SearchVC.swift in Sources */,
 				A078A10928D8E05E00BA7AAB /* GFTitleLabel.swift in Sources */,
