@@ -34,6 +34,7 @@
 		A09A7A4328D40F0500F10F80 /* FavoriteListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09A7A4228D40F0500F10F80 /* FavoriteListVC.swift */; };
 		A09A7A4528D4538200F10F80 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09A7A4428D4538200F10F80 /* GFButton.swift */; };
 		A09A7A4728D4568700F10F80 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09A7A4628D4568700F10F80 /* GFTextField.swift */; };
+		A0C5102728EC02700094A1DA /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5102628EC02700094A1DA /* GFItemInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		A09A7A4228D40F0500F10F80 /* FavoriteListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListVC.swift; sourceTree = "<group>"; };
 		A09A7A4428D4538200F10F80 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		A09A7A4628D4568700F10F80 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		A0C5102628EC02700094A1DA /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 			children = (
 				A078A10C28D8E2E100BA7AAB /* GFAlertVC.swift */,
 				A05B87B028DD8DB5006EABE5 /* UserInfoHeaderVC.swift */,
+				A0C5102628EC02700094A1DA /* GFItemInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				A078A10928D8E05E00BA7AAB /* GFTitleLabel.swift in Sources */,
 				A09A7A2D28D409E600F10F80 /* AppDelegate.swift in Sources */,
 				A05B87B128DD8DB5006EABE5 /* UserInfoHeaderVC.swift in Sources */,
+				A0C5102728EC02700094A1DA /* GFItemInfoVC.swift in Sources */,
 				A078A11E28D99C3B00BA7AAB /* ErrorMessage.swift in Sources */,
 				A078A12528DA188900BA7AAB /* UIHelper.swift in Sources */,
 				A078A11B28D9052500BA7AAB /* NetworkManager.swift in Sources */,
