@@ -17,7 +17,8 @@ class GFItemInfoVC: UIViewController {
     let actionButton = GFButton()
     
     var user: User!
-    
+    var delegate: UserInfoVCDelegate!
+
     init(user: User!) {
         super.init(nibName: nil, bundle: nil)
         self.user = user
@@ -35,6 +36,7 @@ class GFItemInfoVC: UIViewController {
         
         layoutUI()
         configureStackView()
+        configureAction()
     }
     
     
@@ -46,7 +48,13 @@ class GFItemInfoVC: UIViewController {
     }
     
     
+    private func configureAction() {
+        actionButton.addTarget(self, action: #selector(actionButtonTapped), for: .touchUpInside)
+    }
     
+    @objc func actionButtonTapped() {
+        
+    }
     
     
     
