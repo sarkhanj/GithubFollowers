@@ -40,6 +40,7 @@
 		A0C5102728EC02700094A1DA /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5102628EC02700094A1DA /* GFItemInfoVC.swift */; };
 		A0C5102928EC087C0094A1DA /* GFRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5102828EC087C0094A1DA /* GFRepoItemVC.swift */; };
 		A0F856AD28EF0F2E00B8E537 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F856AC28EF0F2E00B8E537 /* PersistenceManager.swift */; };
+		A0F856AF28EF1AEB00B8E537 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F856AE28EF1AEB00B8E537 /* FavoriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		A0C5102628EC02700094A1DA /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 		A0C5102828EC087C0094A1DA /* GFRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoItemVC.swift; sourceTree = "<group>"; };
 		A0F856AC28EF0F2E00B8E537 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		A0F856AE28EF1AEB00B8E537 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				A078A12028D9BA2700BA7AAB /* FollowerCell.swift */,
+				A0F856AE28EF1AEB00B8E537 /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				A078A12128D9BA2700BA7AAB /* FollowerCell.swift in Sources */,
 				A078A12328D9BA9A00BA7AAB /* GFAvatarImageView.swift in Sources */,
 				A0F856AD28EF0F2E00B8E537 /* PersistenceManager.swift in Sources */,
+				A0F856AF28EF1AEB00B8E537 /* FavoriteCell.swift in Sources */,
 				A078A10D28D8E2E100BA7AAB /* GFAlertVC.swift in Sources */,
 				A0C5102928EC087C0094A1DA /* GFRepoItemVC.swift in Sources */,
 				A05B87AF28DCD30F006EABE5 /* UserInfoVC.swift in Sources */,
