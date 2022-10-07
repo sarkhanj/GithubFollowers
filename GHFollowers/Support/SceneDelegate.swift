@@ -18,42 +18,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = createTabbar()
+        window?.rootViewController = GFTabbarController()
         window?.makeKeyAndVisible()
         
         configureNavigationBar()
     }
     
-    func createSearchNavigationController() -> UINavigationController {
-        let searchVC = SearchVC()
-        searchVC.title = "Search"
-        
-//        UINavigationBar.appearance().prefersLargeTitles = true
-//        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.systemGray6]
-
-//        UINavigationBar.appearance().backgroundColor = .systemGray6
-        searchVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
-        
-        return UINavigationController(rootViewController: searchVC)
-    }
-    
-    
-    func createFavoritesNavigationController() -> UINavigationController {
-        let favoritesVC = FavoriteListVC()
-        favoritesVC.title = "Favorites"
-        favoritesVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
-        
-        return UINavigationController(rootViewController: favoritesVC)
-    }
-    
-    func createTabbar() -> UITabBarController {
-        let tabbar = UITabBarController()
-        UITabBar.appearance().tintColor = .systemGreen 
-        UITabBar.appearance().backgroundColor = .systemGray6
-        tabbar.viewControllers = [createSearchNavigationController(), createFavoritesNavigationController()]
-        
-        return tabbar
-    }
+ 
     
     func configureNavigationBar(){
         UINavigationBar.appearance().tintColor = .systemGreen
